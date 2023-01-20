@@ -1,3 +1,4 @@
+/* Ruleset for entire page */
 html {
     /* Sets font color to white and background color to black for all elements in HTML */
     color: #FFFE;
@@ -5,6 +6,7 @@ html {
     /* Aligns all text to center of the page*/
 }
 
+/* Ruleset for all elements within the <body> tag */
 body {
     /* Sets the display style of the body section to flex, flowing down in columns */
     display: flex;

@@ -1,0 +1,27 @@
+html {
+    /* Sets font color to white and background color to black for all elements in HTML */
+    color: #FFFE;
+    background-color: #010110;
+    /* Aligns all text to center of the page*/
+}
+
+body {
+    /* Sets the display style of the body section to flex, flowing down in columns */
+    display: flex;
+    flex-flow: column wrap;
+    /* Justifies all items to the center of their columns */
+    align-items: center;
+}
+
+/* Ruleset for div of id "classes" which contains sections for all classes */
+#classes {
+    /* Declares div as its own set of flexboxes, flowing across in rows */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Ruleset for all h3 items in "classes" div, which are names of classes */
+#classes h3 {
+    /* Sets padding to 10px all sides */
+    padding: 10px;
+}

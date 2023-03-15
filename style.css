@@ -1,8 +1,8 @@
 /* Ruleset for entire page */
 html {
     /* Sets font color to white and background color to black for all elements in HTML */
-    color: #FFFE;
-    background-color: #010110;
+    color: #BBB;
+    background-color: #010123;
     /* Aligns all text to center of the page*/
 }
 
@@ -26,4 +26,13 @@ body {
 #classes h3 {
     /* Sets padding to 10px all sides */
     padding: 10px;
+}
+
+a:link{
+    color: #A11;
+}
+
+a:hover{
+    color: #BBB;
+    transition: 0.02s;
 }
